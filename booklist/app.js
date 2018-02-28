@@ -58,6 +58,7 @@ UI.prototype.clearFields = function() {
   document.getElementById('isbn').value = '';
 }
 
+// Event Listener for add book
 document.getElementById('book-form').addEventListener('submit', function(e) {
   // Get form values
   const title = document.getElementById('title').value,
